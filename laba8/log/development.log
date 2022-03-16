@@ -1,0 +1,99 @@
+Started GET "/" for 127.0.0.1 at 2022-02-23 01:33:24 +0300
+  [1m[35m (6.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutomorphController#input as HTML
+  Rendering automorph/input.html.erb within layouts/application
+  Rendered automorph/input.html.erb within layouts/application (Duration: 366.4ms | Allocations: 631)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 2b4e7a40735fd9012891
+Version: webpack 4.41.2
+Time: 14057ms
+Built at: 23.02.2022 01:34:00
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-902b0c45123ee6b754b7.js    123 KiB  application  [emitted] [immutable]  application
+js/application-902b0c45123ee6b754b7.js.map    138 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-902b0c45123ee6b754b7.js js/application-902b0c45123ee6b754b7.js.map
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'channels' in '/home/thienlao/Рабочий стол/yaip/laba8/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 11:0-19
+
+
+Browserslist: caniuse-lite is outdated. Please run next command `yarn upgrade`
+
+Completed 200 OK in 36394ms (Views: 36000.1ms | ActiveRecord: 0.0ms | Allocations: 32681)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-23 01:37:05 +0300
+Processing by AutomorphController#input as HTML
+  Rendering automorph/input.html.erb within layouts/application
+  Rendered automorph/input.html.erb within layouts/application (Duration: 0.6ms | Allocations: 149)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 6063)
+
+
+Started GET "/automorph/output?n=30&commit=%D0%94%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D1%82%D1%8C" for 127.0.0.1 at 2022-02-23 01:37:24 +0300
+Processing by AutomorphController#output as HTML
+  Parameters: {"n"=>"30", "commit"=>"Действовать"}
+  Rendering automorph/output.html.erb within layouts/application
+  Rendered automorph/output.html.erb within layouts/application (Duration: 31.0ms | Allocations: 306)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 105ms (Views: 59.3ms | ActiveRecord: 0.0ms | Allocations: 6741)
+
+
+Started GET "/automorph/input" for 127.0.0.1 at 2022-02-23 01:37:27 +0300
+Processing by AutomorphController#input as HTML
+  Rendering automorph/input.html.erb within layouts/application
+  Rendered automorph/input.html.erb within layouts/application (Duration: 0.5ms | Allocations: 148)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms | Allocations: 6136)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 17:10:16 +0300
+  [1m[35m (12.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutomorphController#input as HTML
+  Rendering automorph/input.html.erb within layouts/application
+  Rendered automorph/input.html.erb within layouts/application (Duration: 8.4ms | Allocations: 631)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 362ms (Views: 315.3ms | ActiveRecord: 0.0ms | Allocations: 12824)
+
+
+Started GET "/automorph/output?n=52&commit=%D0%94%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D1%82%D1%8C" for 127.0.0.1 at 2022-03-15 17:10:23 +0300
+Processing by AutomorphController#output as HTML
+  Parameters: {"n"=>"52", "commit"=>"Действовать"}
+  Rendering automorph/output.html.erb within layouts/application
+  Rendered automorph/output.html.erb within layouts/application (Duration: 46.7ms | Allocations: 302)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 69ms (Views: 66.1ms | ActiveRecord: 0.0ms | Allocations: 6988)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 17:14:44 +0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AutomorphController#input as HTML
+  Rendering automorph/input.html.erb within layouts/application
+  Rendered automorph/input.html.erb within layouts/application (Duration: 2.3ms | Allocations: 468)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 77ms (Views: 66.1ms | ActiveRecord: 0.0ms | Allocations: 11873)
+
+
+Started GET "/automorph/output?n=25&commit=%D0%94%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D1%82%D1%8C" for 127.0.0.1 at 2022-03-15 17:14:49 +0300
+Processing by AutomorphController#output as HTML
+  Parameters: {"n"=>"25", "commit"=>"Действовать"}
+  Rendering automorph/output.html.erb within layouts/application
+  Rendered automorph/output.html.erb within layouts/application (Duration: 1.5ms | Allocations: 307)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 6722)
+
+
+Started GET "/automorph/input" for 127.0.0.1 at 2022-03-15 17:14:51 +0300
+Processing by AutomorphController#input as HTML
+  Rendering automorph/input.html.erb within layouts/application
+  Rendered automorph/input.html.erb within layouts/application (Duration: 0.6ms | Allocations: 148)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6173)
+
+
